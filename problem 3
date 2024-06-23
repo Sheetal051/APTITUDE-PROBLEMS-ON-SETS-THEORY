@@ -1,0 +1,27 @@
+Q:In the Indian athletic squad sent to the Olympics, 21 athletes were in the triathlon team, 26 were in the pentathlon team, and 29 were in the marathon team. 14 athletes can take part in triathlon and pentathlon, 12 can take part in marathon and triathlon, 15 can take part in pentathlon and marathon , and 8 can take part in all the three games. How many were in the marathon team only?
+A.11
+B.10
+C.8
+D.9
+Ans:
+Let T be the set of athletes in the triathlon team, P be the set of athletes in the pentathlon team, and M be the set of athletes in the marathon team.
+
+We are given:
+
+|T| = 21 |P| = 26 |M| = 29
+
+|T ∩ P| = 14 (number of athletes who can take part in triathlon and pentathlon) |T ∩ M| = 12 (number of athletes who can take part in marathon and triathlon) |P ∩ M| = 15 (number of athletes who can take part in pentathlon and marathon) |T ∩ P ∩ M| = 8 (number of athletes who can take part in all three games)
+
+We want to find |M - (T ∪ P)|, which is the number of athletes who are in the marathon team only.
+
+Using the principle of inclusion-exclusion, we can write:
+
+|M| = |M - (T ∪ P)| + |M ∩ (T ∪ P)|
+
+|M ∩ (T ∪ P)| = |M ∩ T| + |M ∩ P| - |M ∩ T ∩ P| = 12 + 15 - 8 = 19
+
+Now, we can find |M - (T ∪ P)|:
+
+|M - (T ∪ P)| = |M| - |M ∩ (T ∪ P)| = 29 - 19 = 10
+
+So, the correct answer is B. 10.
