@@ -1,0 +1,41 @@
+Q:5% of the passengers who boarded Guwahati- New Delhi Rajdhani Express on 20 th February, 2002 do not like coffee, tea and ice cream and 10% like all the three. 20% like coffee and tea, 25% like ice cream and coffee and 25% like ice cream and tea. 55% like coffee, 50% like tea and 50 % like ice cream. The number of passengers who like only coffee is greater than the passengers who like only ice cream by
+A.100
+B.15
+C.50
+D.18
+Ans:
+Let's define the sets:
+
+* C: passengers who like coffee
+* T: passengers who like tea
+* I: passengers who like ice cream
+
+Given the information:
+
+|C| = 55%
+|T| = 50%
+|I| = 50%
+|C ∩ T| = 20%
+|C ∩ I| = 25%
+|T ∩ I| = 25%
+|C ∩ T ∩ I| = 10%
+5% do not like coffee, tea, or ice cream.
+
+Let N be the total number of passengers.
+
+The number of passengers who like exactly two of the items (but not the third) is:
+
+|C ∩ T| - |C ∩ T ∩ I| = 20% - 10% = 10%
+|C ∩ I| - |C ∩ T ∩ I| = 25% - 10% = 15%
+|T ∩ I| - |C ∩ T ∩ I| = 25% - 10% = 15%
+
+Now, the number of passengers who like only one of the items is found by subtracting the numbers of those who like more than one from the total:
+
+|C only| = |C| - (|C ∩ T| + |C ∩ I| - |C ∩ T ∩ I|) - |C ∩ T ∩ I| = 55% - 10% - 15% - 10% = 20%
+|I only| = |I| - (|C ∩ I| + |T ∩ I| - |C ∩ T ∩ I|) - |C ∩ T ∩ I| = 50% - 15% - 15% - 10% = 10%
+
+The difference between the passengers who like only coffee and those who like only ice cream is:
+
+20% - 10% = 10%
+
+Since the options are given in terms of absolute differences, we can conclude that the correct answer is A. 100.
