@@ -1,0 +1,31 @@
+Q:In a group of 75 students,12 like only cabbage,15 like only cauliflower,21 like only carrot,12 like both carrot and cabbage,13 like only capsicum and 2 like both capsicum and 2 like both capsicum and cauliflower. What is the percentage of students that do not like cabbage?
+A. 16
+B. 32
+C.24
+D. 68
+Ans:
+Given:
+
+Total number of students: 75
+Students who like only cabbage: 12
+Students who like only cauliflower: 15
+Students who like only carrot: 21
+Students who like both carrot and cabbage: 12
+Students who like only capsicum: 13
+Students who like both capsicum and cauliflower: 2
+
+From the problem, we need to identify all the students who like cabbage. These include:
+
+Students who like only cabbage: 12
+Students who like both carrot and cabbage: 12
+Adding these, the total number of students who like cabbage is:
+12+12=24
+
+Now, to find the number of students who do not like cabbage, we subtract the number of students who like cabbage from the total number of students:
+75−24=51
+
+Next, we calculate the percentage of students who do not like cabbage:
+(51 / 75) × 100 = 68%
+
+Therefore, the percentage of students that do not like cabbage is:
+68
