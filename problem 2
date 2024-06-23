@@ -1,0 +1,20 @@
+Q:There are 20000 people living in Defence Colony, Gurgaon. Out of them 9000 subscribe to Star TV Network and 12000 to Zee TV Network. If 4000 subscribe to both, how many do not subscribe to any of the two?
+A. 5000
+B.2000
+C.3000
+Ans:
+Let's break this down step by step:
+
+Total people in Defence Colony, Gurgaon = 20000
+Number of people who subscribe to Star TV Network = 9000
+Number of people who subscribe to Zee TV Network = 12000
+Number of people who subscribe to both = 4000
+
+To find the number of people who subscribe to at least one of the two networks, we can add the number of people who subscribe to Star TV Network and the number of people who subscribe to Zee TV Network, and then subtract the number of people who subscribe to both (since they were counted twice).
+
+Number of people who subscribe to at least one network = Star TV subscribers + Zee TV subscribers - Both subscribers = 9000 + 12000 - 4000 = 17000
+Now, to find the number of people who do not subscribe to any of the two networks, we can subtract the number of people who subscribe to at least one network from the total population.
+
+Number of people who do not subscribe to any network = Total population - Number of people who subscribe to at least one network = 20000 - 17000 = 3000
+
+So, the correct answer is C. 3000
