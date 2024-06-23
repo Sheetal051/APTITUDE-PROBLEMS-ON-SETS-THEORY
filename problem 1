@@ -1,0 +1,17 @@
+Q:In the Mindworkzz club all the members participate either in the Tambola or the Fete. 320 participate in the Fete, 350 participate in the Tambola and 220 participate in both. How many members does the club have?
+A. 410
+B. 450
+C. 440
+D. 380
+Ans:
+Let's break this down step by step:
+
+320 members participate in the Fete.
+350 members participate in the Tambola.
+220 members participate in both.
+
+To find the total number of members, we can add the number of members who participate in the Fete and the number of members who participate in the Tambola, and then subtract the number of members who participate in both (since they were counted twice).
+
+Total members = Fete participants + Tambola participants - Both participants = 320 + 350 - 220 = 450
+
+So, the correct answer is B. 450.
