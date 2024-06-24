@@ -1,0 +1,15 @@
+Q:Find the solution set of the equation x^2+x+2=0 in roster form
+a. {1,-2}
+b. { }
+c. {1,1}
+d. {1}
+Ans:
+The equation x² + x + 2 = 0 has no real solutions. This is because the quadratic formula would give us:
+
+x = (-b ± √(b² - 4ac)) / 2a
+
+In this case, a = 1, b = 1, and c = 2. Plugging these values in, we get:
+
+x = (-(1) ± √((1)² - 4(1)(2))) / 2(1) x = (-1 ± √(-7)) / 2
+
+Since the square root of a negative number is an imaginary number, this equation has no real solutions. Therefore, the solution set is the empty set, {}.
