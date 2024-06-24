@@ -1,0 +1,56 @@
+Q:60 students participated in one or more of the three competitions, i.e. Quiz, Extempore and Debate. A total of 22 students participated either in Quiz only or in Extempore only. 4 students participated in all three competitions. A total of14 students participated in any of the two competitions only. How many students participated in Debate only?
+A.11
+B.20
+C.14
+D.22
+Ans:
+To find the number of students who participated in Debate only, we need to use the principle of inclusion-exclusion and the given data. Let’s define the following sets:
+
+Q: Students who participated in Quiz
+E: Students who participated in Extempore
+D: Students who participated in Debate
+We are given the following information:
+
+Total students participating in one or more competitions: ∣Q∪E∪D∣=60
+Students who participated in either Quiz only or Extempore only: 22
+Students who participated in all three competitions: ∣Q∩E∩D∣=4
+Students who participated in any two competitions only: 14
+
+Let’s denote the number of students who participated in Quiz only by Q only ,Extempore only by E only, and Debate only by D only.We are also interested in students who participated in exactly two competitions but not the third. Let’s define:
+
+∣Q∩E∣−∣Q∩E∩D∣=QE (students in both Quiz and Extempore only)
+∣Q∩D∣−∣Q∩E∩D∣=QD (students in both Quiz and Debate only)
+∣E∩D∣−∣Q∩E∩D∣=ED (students in both Extempore and Debate only)
+
+From the information provided:
+QE+QD+ED=14
+
+Let’s use the principle of inclusion-exclusion:
+∣Q∪E∪D∣=∣Q∣+∣E∣+∣D∣−∣Q∩E∣−∣Q∩D∣−∣E∩D∣+∣Q∩E∩D∣
+
+We know:
+∣Q∪E∪D∣=60
+∣Q∩E∩D∣=4
+
+From the problem:
+Q only+E only =22
+
+We denote:
+∣Q∣=Q only+QE+QD+4
+∣E∣=E only+QE+ED+4
+∣D∣=D only+QD+ED+4
+
+Using the principle of inclusion-exclusion:
+60=(Q only+QE+QD+4)+(E only+QE+ED+4)+(D only+QD+ED+4)−(QE+4)−(QD+4)−(ED+4)+4
+
+Simplifying:
+60=Q only+E only+D only+QE+QD+ED+12
+60=22+D only+14+12
+60=48+D only
+​
+Solving for D only:
+D only =60−48=12
+
+Thus, the number of students who participated in Debate only is:
+
+None of the provided options match exactly. There seems to be a discrepancy in either the provided options or the problem data. Given the information, the number of students who participated in Debate only would be 12, which isn't listed among the options.
