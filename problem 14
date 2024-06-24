@@ -1,0 +1,14 @@
+Q:Identify the diagram that best represents the relationship among the given classes.Country, State, City
+A.1
+B.2
+C.3
+D.4
+Ans:
+The classes "Country, State, City" represent a hierarchical relationship where cities are within states, and states are within a country. Therefore, the best representation for this relationship is a series of nested circles, where:
+
+The outer circle represents the country,
+The middle circle represents the state,
+The inner circle represents the city.
+From the provided options, option 4 (the diagram with nested circles) best represents this hierarchical relationship. Thus, the correct answer is:
+
+D. 4
