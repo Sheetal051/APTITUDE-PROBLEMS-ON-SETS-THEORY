@@ -1,0 +1,41 @@
+Q: Of 60 students in a class, anyone who has chosen to study maths elects to do physics as well. But no one does maths and chemistry, 16 do physics and chemistry. All the students do at least one of the three subjects and the number of people who do exactly one of the three is more than the number who do more than one of the three. What are the maximum and minimum number of people who could have done Chemistry only?
+A. 40, 0
+B. 28, 0
+C. 38, 2
+D. 44, 0
+Ans:
+From point 1, we know that the number of students who do maths is less than or equal to the number of students who do physics.
+
+Let's consider the students who do exactly one subject:
+
+Maths only: 0 (since anyone who does maths also does physics)
+Physics only: x (some number)
+Chemistry only: y (some number)
+The total number of students who do exactly one subject is x + y.
+
+Now, let's consider the students who do more than one subject:
+
+Maths and physics: m (some number)
+Physics and chemistry: 16 (given)
+Maths and chemistry: 0 (given)
+The total number of students who do more than one subject is m + 16.
+
+From point 5, we know that x + y > m + 16.
+
+We also know that the total number of students is 60, so:
+x + y + m + 16 = 60
+
+Subtracting m + 16 from both sides, we get:
+x + y > 44
+
+Since x and y are non-negative, we know that y > 44 - x.
+
+Now, we want to find the maximum and minimum values of y (Chemistry only).
+
+Maximum value of y: To maximize y, we need to minimize x. Since x is a non-negative integer, the minimum value of x is 0. Then, y > 44 - 0 = 44. However, this would mean that x + y = 44, which contradicts the fact that x + y > 44. So, the maximum value of y is 28 (since x + y > 44, x can be at most 32, and y can be at most 28).
+
+Minimum value of y: To minimize y, we need to maximize x. Since x + y > 44, the maximum value of x is 43 (so that y > 1). Then, y > 44 - 43 = 1. So, the minimum value of y is 0.
+
+Therefore, the correct answer is:
+
+B. 28, 0
