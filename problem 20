@@ -1,0 +1,34 @@
+Q:In a class of 30 pupils, 12 take needle work, 16 take physics and 18 take history. If all the 30 students take at least one subject and no one takes all three then the number of pupils taking 2 subjects is
+(a) 16
+(b) 6
+(c) 8
+(d) 20
+Ans:
+Let's use the principle of inclusion-exclusion to solve this problem.
+
+Let N be the set of students taking needle work, P be the set of students taking physics, and H be the set of students taking history.
+
+We know that:
+
+|N| = 12
+|P| = 16
+|H| = 18
+|N ∪ P ∪ H| = 30 (all 30 students take at least one subject)
+|N ∩ P ∩ H| = 0 (no one takes all three subjects)
+
+We want to find the number of students taking 2 subjects, which is equal to:
+|N ∩ P| + |P ∩ H| + |H ∩ N| - 2|N ∩ P ∩ H|
+
+Using the principle of inclusion-exclusion, we can write:
+|N ∪ P ∪ H| = |N| + |P| + |H| - |N ∩ P| - |P ∩ H| - |H ∩ N| + |N ∩ P ∩ H|
+
+Substituting the given values, we get:
+30 = 12 + 16 + 18 - |N ∩ P| - |P ∩ H| - |H ∩ N| + 0
+
+Simplifying the equation, we get:
+|N ∩ P| + |P ∩ H| + |H ∩ N| = 16
+
+So, the number of pupils taking 2 subjects is 16.
+
+The correct answer is:
+(a) 16
