@@ -1,0 +1,26 @@
+Q:Set P comprises all multiples of 4 less than 500. Set Q comprises all odd multiples of 7 less than 500, Set R comprises all multiples of 6 less than 500. How many elements are present in P∪Q∪R ?
+A. 202
+B. 243
+C. 228
+D. 186
+Ans:
+P: multiples of 4 less than 500 = {4, 8, 12,..., 496} (since 500 is not included) There are 124 multiples of 4 less than 500 (from 4 to 496, inclusive).
+
+Q: odd multiples of 7 less than 500 = {7, 21, 35,..., 497} (since 500 is not included) There are 71 odd multiples of 7 less than 500 (from 7 to 497, inclusive).
+
+R: multiples of 6 less than 500 = {6, 12, 18,..., 498} (since 500 is not included) There are 83 multiples of 6 less than 500 (from 6 to 498, inclusive).
+
+Now, let's find the union P∪Q∪R. We need to count the number of unique elements in the union.
+
+After counting, we get:
+
+P: 124
+Q: 71
+R: 83
+Common elements (multiples of 12): 41
+Common elements (multiples of 42): 11
+Subtracting the common elements, we get:
+
+124 + 71 + 83 - 41 - 11 = 190
+So, there are 190 elements in P∪Q∪R.
+
