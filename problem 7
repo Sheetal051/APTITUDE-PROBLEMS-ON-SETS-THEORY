@@ -1,2 +1,27 @@
 Q: In the given diagram, the circle stands for ‘farmers’, the rectangle stands for ‘rural’, and the triangle stands for ‘rich’, The numbers given in the different segments represent the number of persons of that category. 
 How many rural people are either farmers or rich but NOT both?
+Ans:
+To determine how many rural people are either farmers or rich but not both, we need to analyze the diagram.
+
+The numbers given in the segments represent the following:
+
+Farmers only (inside the circle but not overlapping the rectangle or triangle): 6
+Rural only (inside the rectangle but not overlapping the circle or triangle): 9
+Rich only (inside the triangle but not overlapping the circle or rectangle): 16
+Farmers and Rural only (inside the overlapping area of circle and rectangle, but not overlapping the triangle): 4
+Rural and Rich only (inside the overlapping area of rectangle and triangle, but not overlapping the circle): 11
+Farmers and Rich only (inside the overlapping area of circle and triangle, but not overlapping the rectangle): 14
+Farmers, Rural, and Rich (inside the overlapping area of circle, rectangle, and triangle): 22
+Neither Farmers, Rural, nor Rich: Not explicitly given but can be ignored for this calculation.
+
+We need to find the number of rural people who are either farmers or rich but not both.
+Rural and Farmers only: 4
+Rural and Rich only: 11
+
+Now, we need to exclude the rural people who are both farmers and rich:
+Rural, Farmers, and Rich: 22
+
+The number of rural people who are either farmers or rich but not both is:
+Rural and Farmers only+Rural and Rich only= 4+11=15
+
+Thus, the number of rural people who are either farmers or rich but not both is 15
