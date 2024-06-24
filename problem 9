@@ -1,0 +1,33 @@
+Q:Among 160 players in a tournament, 57 did not participate in anyof the three games, i.e. Cricket, Hockey and Badminton. A total of 37 players participated in only one game,10 players participated in both Cricket and Hockey but not in Badminton, 9 players participated in both Hockey and Badminton but not in Cricket, and 13 players participated in both Cricket and Badminton but not in Hockey. How many students participated in all the three games
+A.30
+B.32
+C.38
+D.34
+Ans:
+To find out how many students participated in all three games, we need to use the information provided and set up an equation. Here's the given data:
+
+Total number of players = 160
+Players who did not participate in any game = 57
+Players who participated in only one game = 37
+Players who participated in both Cricket and Hockey but not in Badminton = 10
+Players who participated in both Hockey and Badminton but not in Cricket = 9
+Players who participated in both Cricket and Badminton but not in Hockey = 13
+Let x represent the number of players who participated in all three games.
+
+First, we find the number of players who participated in at least one game: 160−57=103
+Next, let's set up the equation for the total number of players participating in at least one game. This total includes:
+
+Players who participated in only one game = 37
+Players who participated in both Cricket and Hockey but not in Badminton = 10
+Players who participated in both Hockey and Badminton but not in Cricket = 9
+Players who participated in both Cricket and Badminton but not in Hockey = 13
+Players who participated in all three games = 𝑥
+
+Therefore, we have:
+37+10+9+13+x=103
+Solving for x:
+69+x=103
+x=103−69
+x=34
+
+Therefore, the number of students who participated in all three games is 34
