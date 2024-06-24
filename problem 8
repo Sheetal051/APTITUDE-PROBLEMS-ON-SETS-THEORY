@@ -1,0 +1,27 @@
+Q: In a batch of 68 students, 23 students do not participate in any of the two games i.e. cricket and squash. 17 students participate in cricket only, 24 students participate in cricket and squash. How many students participate in squash only?
+A.28
+B.4
+C.21
+D.20
+Ans:
+Let's break down the information:
+
+Total students: 68
+Students who do not participate in any game: 23
+Students who participate in cricket only: 17
+Students who participate in cricket and squash: 24
+We can start by finding the total number of students who participate in cricket:
+
+Students who participate in cricket only: 17
+Students who participate in cricket and squash: 24
+Total students who participate in cricket: 17 + 24 = 41
+
+Now, let's find the total number of students who participate in squash:
+
+Students who participate in cricket and squash: 24 (these students also participate in squash)
+Total students who participate in squash = Total students - Students who do not participate in any game - Students who participate in cricket only = 68 - 23 - 17 = 28
+Since 24 students participate in both cricket and squash, the number of students who participate in squash only is:
+
+Total students who participate in squash - Students who participate in cricket and squash = 28 - 24 = 4
+So, the correct answer is B. 4.
+
