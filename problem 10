@@ -1,0 +1,49 @@
+Q:.In a class of 100 students, every student has passed in one or more of the three subjects, i.e. History, Economics and English. Among all the students, 24 students have passed in English only, 14 students have passed in History only, 11 students have passed in both English and Economics only, and 12 students have passed in both English and History only. A total of 50 students have passed in History. If only 5 students have passed in all three subjects, then how many students have passed in Economics only?
+A.15
+B.18
+C.20
+D.10
+Ans:
+Let's use the principle of inclusion and exclusion to solve this problem. We are given:
+
+Total number of students = 100
+Students who passed only in English = 24
+Students who passed only in History = 14
+Students who passed in both English and Economics only = 11
+Students who passed in both English and History only = 12
+Students who passed in History = 50
+Students who passed in all three subjects = 5
+
+Let:
+E be the number of students who passed in English.
+H be the number of students who passed in History.
+Ec be the number of students who passed in Economics.
+x be the number of students who passed in Economics only.
+
+We are given:
+∣H∣=50
+∣E only∣=24
+∣H only∣=14
+∣E∩Ec only∣=11
+∣E∩H only∣=12
+∣E∩H∩Ec∣=5
+
+First, we need to calculate the total number of students who passed in History, which includes those who passed only in History, those who passed in History and English only, those who passed in History and Economics only, and those who passed in all three subjects.
+
+The number of students who passed in History and Economics only, ∣H∩Ec only∣, can be determined using the total number of History students:∣H∣=∣H only∣+∣H∩E only∣+∣H∩Ec only∣+∣H∩E∩Ec∣
+
+Substituting the given values:
+50=14+12+∣H∩Ec only∣+5
+50=31+∣H∩Ec only∣
+∣H∩Ec only∣=50−31
+∣H∩Ec only∣=19
+
+Next, we need to account for the total number of students:
+100=∣E only∣+∣H only∣+∣Ec only∣+∣E∩Ec only∣+∣H∩Ec only∣+∣E∩H only∣+∣E∩H∩Ec∣
+
+Substituting the known values:
+100=24+14+x+11+19+12+5
+100=85+x
+x=100−85
+x=15
+Therefore, the number of students who passed in Economics only is 15
