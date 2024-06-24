@@ -1,0 +1,27 @@
+Q:Select the Venn diagram that best illustrates the relationship between the following classes. Graduates, Teachers, Literates
+A.A
+B.B
+C.C
+D.D
+Ans:
+To determine which Venn diagram best illustrates the relationship between Graduates, Teachers, and Literates, we need to analyze how these classes overlap:
+
+Literates: This group includes all people who can read and write.
+Graduates: This is a subset of literates because all graduates must be literate.
+Teachers: Most teachers are also graduates, and they are certainly literate.
+Based on this understanding:
+
+All Graduates are Literates.
+All Teachers are Literates.
+Some Literates are neither Graduates nor Teachers.
+There can be some overlap between Graduates and Teachers (some Graduates are Teachers).
+The Venn diagram that best represents this relationship is one where:
+
+The largest circle represents Literates.
+Two smaller circles inside the Literates circle represent Graduates and Teachers, with some overlap between these two circles.
+Given the diagrams provided, Diagram C best illustrates this relationship:
+
+The largest circle represents Literates.
+The two overlapping circles inside represent Graduates and Teachers, showing that both groups are subsets of Literates and that there is some overlap between Graduates and Teachers.
+So, the correct answer is:
+C. C
