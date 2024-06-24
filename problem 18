@@ -1,0 +1,33 @@
+Q:Of the members of three athletic teams in a school 21 are in the cricket team, 26 are in the hockey team and 29 are in the football team. Among them, 14 play hockey and cricket, 15 play hockey and football, and 12 play football and cricket. Eight play all the three games. The total number of members in the three athletic teams is
+(a) 43
+(b) 76
+(c) 49
+(d) None of these
+Ans:
+
+n(A ∪ B ∪ C) = n(A) + n(B) + n(C) - n(A ∩ B) - n(B ∩ C) - n(C ∩ A) + n(A ∩ B ∩ C)
+
+where:
+
+A is the set of cricket team members
+B is the set of hockey team members
+C is the set of football team members
+
+Given values:
+
+n(A) = 21
+n(B) = 26
+n(C) = 29
+n(A ∩ B) = 14
+n(B ∩ C) = 15
+n(C ∩ A) = 12
+n(A ∩ B ∩ C) = 8
+
+Plugging in the values:
+
+n(A ∪ B ∪ C) = 21 + 26 + 29 - 14 - 15 - 12 + 8 = 76 - 41 + 8 = 43
+
+So, the total number of members in the three athletic teams is 43.
+
+The correct answer is:
+(a) 43
