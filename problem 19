@@ -1,0 +1,21 @@
+Q:The set of intelligent students in a class is
+(a) A null set
+(b) A singleton set
+(c) A finite set
+(d) Not a well-defined collection
+Ans:
+A set is considered well-defined if it is possible to determine with certainty whether an object belongs to the set or not. Let's evaluate the options given:
+
+(a) A null set: This would imply that there are no intelligent students in the class, which is a very specific and generally unlikely condition.
+
+(b) A singleton set: This would imply that there is exactly one intelligent student in the class, which is also a very specific condition.
+
+(c) A finite set: This implies that there are a limited number of intelligent students in the class, which is a reasonable assumption.
+
+(d) Not a well-defined collection: This would imply that the set is not well-defined, meaning the criteria for being considered "intelligent" are not clear or consistent, making it impossible to determine with certainty whether a student belongs to the set.
+
+Since intelligence is often a subjective measure and can vary depending on the criteria used to assess it, the set of intelligent students in a class might not be well-defined. Without a clear, objective, and universally accepted definition of what constitutes an "intelligent" student, it would be difficult to definitively categorize students into this set.
+
+Therefore, the most accurate choice is:
+
+(d) Not a well-defined collection
