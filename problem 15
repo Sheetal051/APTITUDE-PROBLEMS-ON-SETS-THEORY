@@ -1,0 +1,19 @@
+Q:Convert the A= {3,-3}into set-builder form
+a. A= {x:x is a positive integer and is a divisor of 19}
+b. A= {x:x is an integer and x^2-9=0}
+c. A= {x:x is an integer and x+1=1}
+d. None of these
+Ans:
+The correct answer is b. A= {x:x is an integer and x^2-9=0}.
+
+The set A = {3, -3} can be written in set-builder form as:
+
+A = {x: x is an integer and x^2 - 9 = 0}
+
+This is because the equation x^2 - 9 = 0 has solutions x = 3 and x = -3, which are the elements of the set A.
+
+The other options do not match the set A = {3, -3}:
+
+a. A = {x: x is a positive integer and is a divisor of 19} would include only positive integers that divide 19, which is not the case for A = {3, -3}.
+
+c. A = {x: x is an integer and x + 1 = 1} would imply x = 0, which is not an element of A = {3, -3}.
